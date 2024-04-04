@@ -38,7 +38,7 @@ class ForgetController extends Controller
            $message->subject("Reset Password");
        });
 
-       return redirect('forget');
+       return redirect('forget')->with('status', 'Check your email for the reset link.');
     }
 
     public function reset($token) {

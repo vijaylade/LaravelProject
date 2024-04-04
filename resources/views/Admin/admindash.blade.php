@@ -120,9 +120,7 @@
 
                 <div class="card-body">
                   <h5 class="card-title">Today Absent</h5>
-
                   <div class="d-flex align-items-center">
-                 
                     <div class="ps-3">
                       <h6>{{$users2}}</h6>
                     </div>

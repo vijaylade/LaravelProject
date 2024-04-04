@@ -142,6 +142,7 @@
             <th>ADDRESS</th>
             <th>GENDER</th>
             <th>DOB</th>
+            <th>Status</th>
             <th>ACTION</th>
           </tr>
           </thead>   
@@ -194,6 +195,7 @@
           {data: 'address', name: 'address'},
           {data:'gender', name: 'gender'},
           {data:'dob', name: 'dob'},
+          {data:'status', name: 'status'},
           {data:'Action', name: 'Action'},
         ]
       });
